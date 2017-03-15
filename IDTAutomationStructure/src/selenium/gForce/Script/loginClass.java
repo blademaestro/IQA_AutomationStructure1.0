@@ -11,6 +11,6 @@ public class loginClass {
 	public void LoginPHPTravel()
 	{
 
-		
+		String login;
 	}
 }
