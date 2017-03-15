@@ -1,0 +1,537 @@
+<html>
+<head>
+<title>TestNG:  Testing XML Test Name</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Testing XML Test Name</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 22 13:24:09 SGT 2017</td>
+</tr>
+<tr><td>Total time:</td><td>245 seconds (245668 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='geForceSelenium.gForce.Script.webStudentModule.editStudentTest()'><b>editStudentTest</b><br>Test class: geForceSelenium.gForce.Script.webStudentModule</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;td.ng-binding&quot;}
+Command duration or timeout: 17 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;3169782&apos;, time: &apos;2016-09-29 10:24:50 -0700&apos;
+System info: host: &apos;GabbooAlien&apos;, ip: &apos;192.168.30.95&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a3b620e3-4adf-40bb-a967-58432f9d5069
+*** Element info: {Using=css selector, value=td.ng-binding}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:466)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at geForceSelenium.gForce.Script.webStudentModule.editStudentTest(webStudentModule.java:56)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;td.ng-binding&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;3169782&apos;, time: &apos;2016-09-29 10:24:50 -0700&apos;
+System info: host: &apos;GabbooAlien&apos;, ip: &apos;192.168.30.95&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Gabo/AppData/Local/Temp/anonymous1397963820253810363webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11187)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/Gabo/AppData/Local/Temp/anonymous1397963820253810363webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11196)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Gabo/AppData/Local/Temp/anonymous1397963820253810363webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12698)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/Gabo/AppData/Local/Temp/anonymous1397963820253810363webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12703)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/Gabo/AppData/Local/Temp/anonymous1397963820253810363webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12645)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1033638837", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1033638837'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;td.ng-binding&quot;}
+Command duration or timeout: 17 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;3169782&apos;, time: &apos;2016-09-29 10:24:50 -0700&apos;
+System info: host: &apos;GabbooAlien&apos;, ip: &apos;192.168.30.95&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: a3b620e3-4adf-40bb-a967-58432f9d5069
+*** Element info: {Using=css selector, value=td.ng-binding}
+	at sun.reflect.GeneratedConstructorAccessor12.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:369)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:466)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+	at geForceSelenium.gForce.Script.webStudentModule.editStudentTest(webStudentModule.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;td.ng-binding&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;3169782&apos;, time: &apos;2016-09-29 10:24:50 -0700&apos;
+System info: host: &apos;GabbooAlien&apos;, ip: &apos;192.168.30.95&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Gabo/AppData/Local/Temp/anonymous1397963820253810363webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11187)
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElement(file:///C:/Users/Gabo/AppData/Local/Temp/anonymous1397963820253810363webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:11196)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Gabo/AppData/Local/Temp/anonymous1397963820253810363webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12698)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_(file:///C:/Users/Gabo/AppData/Local/Temp/anonymous1397963820253810363webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12703)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.execute/&lt;(file:///C:/Users/Gabo/AppData/Local/Temp/anonymous1397963820253810363webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12645)
+</pre></div></td>
+<td>0</td>
+<td>geForceSelenium.gForce.Script.webStudentModule@3ffc5af1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='geForceSelenium.gForce.Script.webClassModule.createClassTest()'><b>createClassTest</b><br>Test class: geForceSelenium.gForce.Script.webClassModule<br/>
+<a href="#Output-1293680734" onClick='toggleBox("Output-1293680734", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1293680734" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1293680734">
+<p>Selecting Open Class in Class Type Select Field</p><br/>
+<p>Type this ClassNamekNcgW</p><br/>
+<p>Typing ClassNamekNcgW in Class Name field</p><br/>
+<p>Type this 100.0</p><br/>
+<p>Typing 100.0 in Class Rate field</p><br/>
+<p>Selecting Danica Mozo in Class Teacher Select Field</p><br/>
+<p>Type this VnuJPsow</p><br/>
+<p>Typing VnuJPsow in Class Venue field</p><br/>
+<p>Type this 50.0</p><br/>
+<p>Typing 50.0 in Class Capacity field</p><br/>
+<p>Clicking Start Time</p><br/>
+<p>Clicking End Time</p><br/>
+<p>Type this https://www.youtube.com/watch?v=9azGzlvCygA</p><br/>
+<p>Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field</p><br/>
+<p>Clicking Save Class</p><br/>
+</div>
+</td>
+<td></td>
+<td>15</td>
+<td>geForceSelenium.gForce.Script.webClassModule@29774679</td></tr>
+<tr>
+<td title='geForceSelenium.gForce.Script.webStudentModule.createStudentTest()'><b>createStudentTest</b><br>Test class: geForceSelenium.gForce.Script.webStudentModule<br/>
+<a href="#Output-1003292107" onClick='toggleBox("Output-1003292107", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1003292107" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1003292107">
+<p>Clicking Student Tab Link</p><br/>
+<p>Clicking Add Student</p><br/>
+<p>Finished waiting</p><br/>
+<p>Type this lTS0G6Sw</p><br/>
+<p>Typing lTS0G6Sw in First Name Field field</p><br/>
+<p>Type this lRUHUfdc</p><br/>
+<p>Typing lRUHUfdc in Middle Name Field field</p><br/>
+<p>Type this SrF8bgKs</p><br/>
+<p>Typing SrF8bgKs in Last Name Field field</p><br/>
+<p>Type this 2Rr5lemail@mailinator.com</p><br/>
+<p>Typing 2Rr5lemail@mailinator.com in Email Address Field field</p><br/>
+<p>Clicking Gender 'Male'</p><br/>
+<p>Type this 1990</p><br/>
+<p>Typing 1990 in Birth Date Field field</p><br/>
+<p>Type this 9654321</p><br/>
+<p>Typing 9654321 in Address Field field</p><br/>
+<p>Type this Password1!</p><br/>
+<p>Typing Password1! in New Password field</p><br/>
+<p>Type this Password1!</p><br/>
+<p>Typing Password1! in New Password field</p><br/>
+<p>Type this emergencyName</p><br/>
+<p>Typing emergencyName in Emergency Contact Name field</p><br/>
+<p>Type this emergencyNumber</p><br/>
+<p>Typing emergencyNumber in Emergency Contact Number field</p><br/>
+<p>Clicking Save Student</p><br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>geForceSelenium.gForce.Script.webStudentModule@3ffc5af1</td></tr>
+<tr>
+<td title='geForceSelenium.gForce.Script.webTeacherModule.createTeacherFutureDateTest()'><b>createTeacherFutureDateTest</b><br>Test class: geForceSelenium.gForce.Script.webTeacherModule<br/>
+<a href="#Output-1200470358" onClick='toggleBox("Output-1200470358", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1200470358" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1200470358">
+<p>Clicking Teacher</p><br/>
+<p>Finished waiting</p><br/>
+<p>Type this TRAINERTEACHER vjP5L</p><br/>
+<p>Typing TRAINERTEACHER vjP5L in First Name field</p><br/>
+<p>Type this eDHwKW8i</p><br/>
+<p>Type this d2JSXKX4</p><br/>
+<p>Typing d2JSXKX4 in Last Name field</p><br/>
+<p>Type this 876524315</p><br/>
+<p>Typing 876524315 in Contact Number field</p><br/>
+<p>Type this randomEMail1487741049075@mailinator.com</p><br/>
+<p>Typing randomEMail1487741049075@mailinator.com in Email Address field</p><br/>
+<p>Type this 2017-01-03</p><br/>
+<p>Typing 2017-01-03 in Birth Date field</p><br/>
+<p>Clicking Male Gender</p><br/>
+<p>Type this Description Text Area</p><br/>
+<p>Type this Password</p><br/>
+<p>Typing Password in Password field</p><br/>
+<p>Type this Password</p><br/>
+<p>Typing Password in Confirm Password field</p><br/>
+<p>Type this contactName</p><br/>
+<p>Type this 876524315</p><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>geForceSelenium.gForce.Script.webTeacherModule@5e5792a0</td></tr>
+<tr>
+<td title='geForceSelenium.gForce.Script.webTeacherModule.createTeacherNotAvailableForTrainingTest()'><b>createTeacherNotAvailableForTrainingTest</b><br>Test class: geForceSelenium.gForce.Script.webTeacherModule<br/>
+<a href="#Output-144040807" onClick='toggleBox("Output-144040807", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-144040807" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-144040807">
+<p>Clicking Teacher</p><br/>
+<p>Finished waiting</p><br/>
+<p>Type this NON-TRAINERTEACHERvMS</p><br/>
+<p>Typing NON-TRAINERTEACHERvMS in First Name field</p><br/>
+<p>Type this eDHwKW8i</p><br/>
+<p>Type this d2JSXKX4</p><br/>
+<p>Typing d2JSXKX4 in Last Name field</p><br/>
+<p>Type this 876524315</p><br/>
+<p>Typing 876524315 in Contact Number field</p><br/>
+<p>Type this NON-TRAINERTEACHEREMAILaiP@mailinator.com</p><br/>
+<p>Typing NON-TRAINERTEACHEREMAILaiP@mailinator.com in Email Address field</p><br/>
+<p>Type this 2017-01-03</p><br/>
+<p>Typing 2017-01-03 in Birth Date field</p><br/>
+<p>Clicking Male Gender</p><br/>
+<p>Type this Description Text Area</p><br/>
+<p>Type this Password</p><br/>
+<p>Typing Password in Password field</p><br/>
+<p>Type this Password</p><br/>
+<p>Typing Password in Confirm Password field</p><br/>
+<p>Type this contactName</p><br/>
+<p>Type this 876524315</p><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>geForceSelenium.gForce.Script.webTeacherModule@5e5792a0</td></tr>
+<tr>
+<td title='geForceSelenium.gForce.Script.webTeacherModule.createTeacherTest()'><b>createTeacherTest</b><br>Test class: geForceSelenium.gForce.Script.webTeacherModule<br/>
+<a href="#Output-1482246673" onClick='toggleBox("Output-1482246673", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1482246673" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1482246673">
+<p>Clicking Teacher</p><br/>
+<p>Finished waiting</p><br/>
+<p>Type this TRAINERTEACHER vjP5L</p><br/>
+<p>Typing TRAINERTEACHER vjP5L in First Name field</p><br/>
+<p>Type this eDHwKW8i</p><br/>
+<p>Type this d2JSXKX4</p><br/>
+<p>Typing d2JSXKX4 in Last Name field</p><br/>
+<p>Type this 876524315</p><br/>
+<p>Typing 876524315 in Contact Number field</p><br/>
+<p>Type this foXj746zemail@email.com</p><br/>
+<p>Typing foXj746zemail@email.com in Email Address field</p><br/>
+<p>Type this 2017-01-03</p><br/>
+<p>Typing 2017-01-03 in Birth Date field</p><br/>
+<p>Clicking Male Gender</p><br/>
+<p>Type this Description Text Area</p><br/>
+<p>Clicking Available For Training Status</p><br/>
+<p>Type this Password</p><br/>
+<p>Typing Password in Password field</p><br/>
+<p>Type this Password</p><br/>
+<p>Typing Password in Confirm Password field</p><br/>
+<p>Type this contactName</p><br/>
+<p>Type this 876524315</p><br/>
+</div>
+</td>
+<td></td>
+<td>12</td>
+<td>geForceSelenium.gForce.Script.webTeacherModule@5e5792a0</td></tr>
+<tr>
+<td title='geForceSelenium.gForce.Script.webClassModule.deleteClassTest()'><b>deleteClassTest</b><br>Test class: geForceSelenium.gForce.Script.webClassModule<br/>
+<a href="#Output-2019826979" onClick='toggleBox("Output-2019826979", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2019826979" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2019826979">
+<p>Type this ClassNameMGcWl</p><br/>
+<p>Typing ClassNameMGcWl in Class Name field</p><br/>
+<p>Selecting Open Class in Class Type Select Field</p><br/>
+<p>Clicking Search Button</p><br/>
+<p>Finished waiting</p><br/>
+<p>Finished waiting</p><br/>
+<p>Finished waiting</p><br/>
+<p>Clicking Class Table</p><br/>
+<p>Clicking Remove Class</p><br/>
+<p>Clicking Delete Class Confirmation</p><br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>geForceSelenium.gForce.Script.webClassModule@29774679</td></tr>
+<tr>
+<td title='geForceSelenium.gForce.Script.webStudentModule.deleteStudentTest()'><b>deleteStudentTest</b><br>Test class: geForceSelenium.gForce.Script.webStudentModule<br/>
+<a href="#Output-820537534" onClick='toggleBox("Output-820537534", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-820537534" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-820537534">
+<p>Clicking Student Tab Link</p><br/>
+<p>Type this lTS0G6Sw</p><br/>
+<p>Typing lTS0G6Sw in First Name Field field</p><br/>
+<p>Type this SrF8bgKs</p><br/>
+<p>Typing SrF8bgKs in Last Name Field field</p><br/>
+<p>Clicking Search Student Button</p><br/>
+<p>Finished waiting</p><br/>
+<p>Clicking Class Row</p><br/>
+<p>Clicking View Student</p><br/>
+<p>Clicking Delete Confirmation</p><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>geForceSelenium.gForce.Script.webStudentModule@3ffc5af1</td></tr>
+<tr>
+<td title='geForceSelenium.gForce.Script.webClassModule.editClassTest()'><b>editClassTest</b><br>Test class: geForceSelenium.gForce.Script.webClassModule<br/>
+<a href="#Output-404648734" onClick='toggleBox("Output-404648734", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-404648734" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-404648734">
+<p>Finished waiting</p><br/>
+<p>Clicking Class Table</p><br/>
+<p>Clicking Edit Class</p><br/>
+<p>Selecting Open Class in Class Type Select Field</p><br/>
+<p>Type this ClassNameMGcWl</p><br/>
+<p>Typing ClassNameMGcWl in Class Name field</p><br/>
+<p>Type this 300.0</p><br/>
+<p>Typing 300.0 in Class Rate field</p><br/>
+<p>Selecting AJ Albaniel in Class Teacher Select Field</p><br/>
+<p>Type this VnuMFkfO</p><br/>
+<p>Typing VnuMFkfO in Class Venue field</p><br/>
+<p>Type this 50.0</p><br/>
+<p>Typing 50.0 in Class Capacity field</p><br/>
+<p>Clicking Start Time</p><br/>
+<p>Clicking End Time</p><br/>
+<p>Type this https://www.youtube.com/watch?v=ll8KDdQzoKY&t=1266s</p><br/>
+<p>Typing https://www.youtube.com/watch?v=ll8KDdQzoKY&t=1266s in Youtube URL field</p><br/>
+<p>Clicking Save Class</p><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>geForceSelenium.gForce.Script.webClassModule@29774679</td></tr>
+<tr>
+<td title='geForceSelenium.gForce.Script.webClassModule.publishClassTest()'><b>publishClassTest</b><br>Test class: geForceSelenium.gForce.Script.webClassModule<br/>
+<a href="#Output-2030937207" onClick='toggleBox("Output-2030937207", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2030937207" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2030937207">
+<p>Selecting Open Class in Class Type Select Field</p><br/>
+<p>Type this ClassNamekNcgW</p><br/>
+<p>Typing ClassNamekNcgW in Class Name field</p><br/>
+<p>Type this 100.0</p><br/>
+<p>Typing 100.0 in Class Rate field</p><br/>
+<p>Selecting Danica Mozo in Class Teacher Select Field</p><br/>
+<p>Type this VnuJPsow</p><br/>
+<p>Typing VnuJPsow in Class Venue field</p><br/>
+<p>Type this 50.0</p><br/>
+<p>Typing 50.0 in Class Capacity field</p><br/>
+<p>Clicking Start Time</p><br/>
+<p>Clicking End Time</p><br/>
+<p>Type this https://www.youtube.com/watch?v=9azGzlvCygA</p><br/>
+<p>Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field</p><br/>
+<p>Clicking Save Class</p><br/>
+<p>Type this ClassNamekNcgW</p><br/>
+<p>Typing ClassNamekNcgW in Class Name field</p><br/>
+<p>Selecting Open Class in Class Type Select Field</p><br/>
+<p>Selecting No in Class Published Select Field</p><br/>
+<p>Clicking Search Button</p><br/>
+<p>Finished waiting</p><br/>
+<p>Finished waiting</p><br/>
+<p>Retrieve this element ClassNamekNcgW</p><br/>
+<p>Strings Matched : ClassNamekNcgW & ClassNamekNcgW</p><br/>
+<p>Retrieve this element Open Class</p><br/>
+<p>Strings Matched : Open Class & Open Class</p><br/>
+<p>Finished waiting</p><br/>
+<p>Clicking Class Table</p><br/>
+<p>Clicking Publish Class</p><br/>
+<p>Clicking Confirm publish</p><br/>
+<p>Finished waiting</p><br/>
+<p>Type this ClassNamekNcgW</p><br/>
+<p>Typing ClassNamekNcgW in Class Name field</p><br/>
+<p>Selecting Open Class in Class Type Select Field</p><br/>
+<p>Selecting Yes in Class Published Select Field</p><br/>
+<p>Clicking Search Button</p><br/>
+</div>
+</td>
+<td></td>
+<td>19</td>
+<td>geForceSelenium.gForce.Script.webClassModule@29774679</td></tr>
+<tr>
+<td title='geForceSelenium.gForce.Script.webClassModule.searchClassTest()'><b>searchClassTest</b><br>Test class: geForceSelenium.gForce.Script.webClassModule<br/>
+<a href="#Output-1860491691" onClick='toggleBox("Output-1860491691", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1860491691" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1860491691">
+<p>Type this ClassNamekNcgW</p><br/>
+<p>Typing ClassNamekNcgW in Class Name field</p><br/>
+<p>Selecting Open Class in Class Type Select Field</p><br/>
+<p>Selecting No in Class Published Select Field</p><br/>
+<p>Clicking Search Button</p><br/>
+<p>Finished waiting</p><br/>
+<p>Finished waiting</p><br/>
+<p>Retrieve this element ClassNamekNcgW</p><br/>
+<p>Strings Matched : ClassNamekNcgW & ClassNamekNcgW</p><br/>
+<p>Retrieve this element Open Class</p><br/>
+<p>Strings Matched : Open Class & Open Class</p><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>geForceSelenium.gForce.Script.webClassModule@29774679</td></tr>
+<tr>
+<td title='geForceSelenium.gForce.Script.webStudentModule.searchStudentTest()'><b>searchStudentTest</b><br>Test class: geForceSelenium.gForce.Script.webStudentModule<br/>
+<a href="#Output-1829217853" onClick='toggleBox("Output-1829217853", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1829217853" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1829217853">
+<p>Clicking Student Tab Link</p><br/>
+<p>Type this lTS0G6Sw</p><br/>
+<p>Typing lTS0G6Sw in First Name Field field</p><br/>
+<p>Type this SrF8bgKs</p><br/>
+<p>Typing SrF8bgKs in Last Name Field field</p><br/>
+<p>Clicking Search Student Button</p><br/>
+<p>Finished waiting</p><br/>
+<p>Retrieve this element lTS0G6Sw SrF8bgKs</p><br/>
+<p>Strings Matched : lTS0G6Sw SrF8bgKs & lTS0G6Sw SrF8bgKs</p><br/>
+<p>Retrieve this element Bayan</p><br/>
+<p>Strings Matched : Bayan & Bayan</p><br/>
+<p>Retrieve this element 9654321</p><br/>
+<p>Strings Matched : 9654321 & 9654321</p><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>geForceSelenium.gForce.Script.webStudentModule@3ffc5af1</td></tr>
+<tr>
+<td title='geForceSelenium.gForce.Script.webTeacherModule.searchTeacherTest()'><b>searchTeacherTest</b><br>Test class: geForceSelenium.gForce.Script.webTeacherModule<br/>
+<a href="#Output-149225732" onClick='toggleBox("Output-149225732", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-149225732" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-149225732">
+<p>Clicking Teacher</p><br/>
+<p>Type this TRAINERTEACHER vjP5L</p><br/>
+<p>Typing TRAINERTEACHER vjP5L in First Name field</p><br/>
+<p>Type this d2JSXKX4</p><br/>
+<p>Typing d2JSXKX4 in Last Name field</p><br/>
+<p>Finished waiting</p><br/>
+<p>Retrieve this element TRAINERTEACHER vjP5L d2JSXKX4</p><br/>
+<p>Strings Matched : TRAINERTEACHER vjP5L d2JSXKX4 & TRAINERTEACHER vjP5L d2JSXKX4</p><br/>
+<p>Retrieve this element Male</p><br/>
+<p>Strings Matched : Male & Male</p><br/>
+<p>Retrieve this element Bayan</p><br/>
+<p>Strings Matched : Bayan & Bayan</p><br/>
+<p>Retrieve this element 876524315</p><br/>
+<p>Strings Matched : 876524315 & 876524315</p><br/>
+</div>
+</td>
+<td></td>
+<td>9</td>
+<td>geForceSelenium.gForce.Script.webTeacherModule@5e5792a0</td></tr>
+<tr>
+<td title='geForceSelenium.gForce.Script.webStudentModule.viewStudentTest()'><b>viewStudentTest</b><br>Test class: geForceSelenium.gForce.Script.webStudentModule<br/>
+<a href="#Output-987547666" onClick='toggleBox("Output-987547666", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-987547666" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-987547666">
+<p>Clicking Student Tab Link</p><br/>
+<p>Clicking Class Row</p><br/>
+<p>Clicking View Student</p><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>geForceSelenium.gForce.Script.webStudentModule@3ffc5af1</td></tr>
+</table><p>
+</body>
+</html>

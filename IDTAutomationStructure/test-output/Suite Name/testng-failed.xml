@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite Name]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="geForceSelenium.gForce.Script.webClassModule">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="createClassTest"/>
+          <include name="editClassTest"/>
+          <include name="publishClassTest"/>
+          <include name="searchClassTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- geForceSelenium.gForce.Script.webClassModule -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Suite Name] -->

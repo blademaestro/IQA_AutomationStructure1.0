@@ -1,0 +1,20 @@
+
+
+<suite name="Suite Name" >
+	<test name ="Testing XML Test Name"  >
+		<classes>
+			<class name ="geForceSelenium.gForce.Script.webClassModule">
+				<method>
+			<!---	<include name = "createClassTest" /> >-->
+				</method>
+			</class>
+			<class name ="geForceSelenium.gForce.Script.webStudentModule" >
+				<method></method>
+			</class>
+			<class name ="geForceSelenium.gForce.Script.webTeacherModule" >
+				<method></method>
+			</class>
+			
+		</classes>
+	</test>
+</suite>
