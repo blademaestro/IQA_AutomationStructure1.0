@@ -10,6 +10,6 @@ public class loginClass {
 	@Test
 	public void LoginPHPTravel()
 	{
-		String and;
+		
 	}	
 }

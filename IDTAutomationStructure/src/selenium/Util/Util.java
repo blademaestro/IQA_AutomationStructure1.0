@@ -62,7 +62,7 @@ public class Util {
 			Select webElement = new Select(driver.findElement(byFinder));
 			webElement.selectByVisibleText(value);		
 		}
-		catch(ElementNotSelectableException e)
+		catch(ElementNotSelectableException | NoSuchElementException e)
 		{
 			Util.logger("FAILED: Unable to Select Element, See below for more details : " + e);
 			throw e;
@@ -75,7 +75,7 @@ public class Util {
 		    (new WebDriverWait(driver, UtilityConfiguration.driverWait_Duration)).until(ExpectedConditions.presenceOfElementLocated(byFinder)).sendKeys(key);;
 		    Util.logger("Press key");
 		}
-		catch(NoSuchElementException e)
+		catch(NoSuchElementException e )
 		{
 			Util.logger("FAILED: Unable to Press the Key, See below for more details :" + e);
 			throw e;
@@ -115,7 +115,7 @@ public class Util {
 		{
 			(new WebDriverWait(driver, UtilityConfiguration.driverWait_Duration)).until(ExpectedConditions.elementToBeClickable(byFinder)).click();
 		}
-		catch(ElementNotVisibleException e)
+		catch(ElementNotVisibleException | NoSuchElementException e)
 		{
 			Util.logger("FAILED: Unable to click element, See below for more details: " + e);
 			throw e;
