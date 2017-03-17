@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/IDTAutomationStructure"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/cglib-nodep-3.2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/client-combined-3.0.0-beta4-nodeps.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/commons-exec-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/commons-io-2.5-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/extentreports-3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/guava-19.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/jna-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/jna-platform-4.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/phantomjsdriver-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Gabo/Desktop/DevTools/Eclipse Workspaces/geForceSelenium/AddOns/SeleniumPlugins/testng-6.9.10.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

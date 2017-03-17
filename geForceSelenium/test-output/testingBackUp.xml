@@ -1,0 +1,18 @@
+<suite name="Suite Name" parallel="false">
+	<test name ="Testing XML Test Name"  >
+		<classes>
+			<class name ="geForceSelenium.gForce.Script.webClassModule">
+				<method>
+		
+				</method>
+			</class>
+			<class name ="geForceSelenium.gForce.Script.webStudentModule" >
+				<method></method>
+			</class>
+			<class name ="geForceSelenium.gForce.Script.webTeacherModule" >
+				<method></method>
+			</class>
+			
+		</classes>
+	</test>
+</suite>

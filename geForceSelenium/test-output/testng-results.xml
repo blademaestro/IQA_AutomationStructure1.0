@@ -1,0 +1,1477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" total="8" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[<p>  ---------------------unifiedRunTest---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Open Class in Class Type Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing ClassNameUld0Y in Class Name field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing 100.0 in Class Rate field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Danica Mozo in Class Teacher Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing VnulNskC in Class Venue field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing 50.0 in Class Capacity field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Start Time  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking End Time  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Save Class  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Element has been located  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting G-Force Project in Class Type Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting 2017 in gForceProject SubType Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing G-Force ProjectzstJL Makati in Class Name field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing 100.0 in Class Rate field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Danica Mozo in Class Teacher Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing VnubEH1U in Class Venue field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing Test AddressMakati in Address field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Makati in Area Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing 50.0 in Class Capacity field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Save Class  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Element has been located  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\FAILED-unifiedRunTest.png  width='600' height='400'/> </br>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Performing Screenshot  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------createClassTest---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Open Class in Class Type Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing ClassNameUld0Y in Class Name field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing 100.0 in Class Rate field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Danica Mozo in Class Teacher Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing VnulNskC in Class Venue field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing 50.0 in Class Capacity field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Start Time  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking End Time  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Save Class  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Element has been located  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-createClassTest.png  width='600' height='400'/> </br>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Performing Screenshot  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------createGForceClassTest---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting G-Force Project in Class Type Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting 2017 in gForceProject SubType Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing G-Force ProjectzstJL Makati in Class Name field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing 100.0 in Class Rate field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Danica Mozo in Class Teacher Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing VnubEH1U in Class Venue field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing Test AddressMakati in Address field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Makati in Area Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing 50.0 in Class Capacity field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Save Class  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Element has been located  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-createGForceClassTest.png  width='600' height='400'/> </br>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Performing Screenshot  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------createGForceRegionalClassTest---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting G-Force Project Regional in Class Type Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting 2017 in gForceProject SubType Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing G-Force Project RegionalfYXJR Davao in Class Name field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing 500.0 in Class Rate field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Danica Mozo in Class Teacher Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing VnuZQzk1 in Class Venue field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing Test AddressMakati in Address field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Davao in Area Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing 50.0 in Class Capacity field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Save Class  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Element has been located  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-createGForceRegionalClassTest.png  width='600' height='400'/> </br>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Performing Screenshot  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------searchClassTest---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing ClassNameUld0Y in Class Name field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  FAILED: Unable to Select Element, See below for more details : org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Open Class
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+System info: host: 'GabbooAlien', ip: '192.168.30.95', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
+Driver info: driver.version: unknown  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\FAILED-searchClassTest.png  width='600' height='400'/> </br>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Performing Screenshot  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------editClassTest---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing ClassNameUld0Y in Class Name field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Open Class in Class Type Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting No in Class Published Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Search Button  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Retrieve this element ClassNameUld0Y  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Strings Matched : ClassNameUld0Y & ClassNameUld0Y  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Retrieve this element Open Class  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Strings Matched : Open Class & Open Class  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Class Table  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Edit Class  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Open Class in Class Type Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing ClassNameruA0b in Class Name field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing 300.0 in Class Rate field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting AJ Albaniel in Class Teacher Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing VnucgPt7 in Class Venue field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing 50.0 in Class Capacity field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Start Time  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking End Time  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing https://www.youtube.com/watch?v=ll8KDdQzoKY&t=1266s in Youtube URL field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Save Class  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Element has been located  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-editClassTest.png  width='600' height='400'/> </br>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Performing Screenshot  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------deleteClassTest---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing ClassNameruA0b in Class Name field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Open Class in Class Type Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Search Button  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Class Table  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Remove Class  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Delete Class Confirmation  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Element has been located  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-deleteClassTest.png  width='600' height='400'/> </br>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Performing Screenshot  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------publishClassTest---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Open Class in Class Type Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing ClassNameUld0Y in Class Name field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing 100.0 in Class Rate field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Selecting Danica Mozo in Class Teacher Select Field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing VnulNskC in Class Venue field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing 50.0 in Class Capacity field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Start Time  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking End Time  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Clicking Save Class  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Element has been located  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Finished waiting  </p>]]>
+    </line>
+    <line>
+      <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\FAILED-publishClassTest.png  width='600' height='400'/> </br>]]>
+    </line>
+    <line>
+      <![CDATA[<p>  Performing Screenshot  </p>]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="158525" started-at="2017-03-17T03:19:03Z" finished-at="2017-03-17T03:21:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="158525" started-at="2017-03-17T03:19:03Z" finished-at="2017-03-17T03:21:41Z">
+      <class name="geForceSelenium.gForce.Script.webClassModule">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="setupTest" is-config="true" duration-ms="27399" started-at="2017-03-17T11:19:03Z" finished-at="2017-03-17T11:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="beforeTest" is-config="true" duration-ms="3664" started-at="2017-03-17T11:19:30Z" finished-at="2017-03-17T11:19:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.unifiedRunTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  ---------------------unifiedRunTest---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="unifiedRunTest()[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="unifiedRunTest" duration-ms="21864" started-at="2017-03-17T11:19:34Z" finished-at="2017-03-17T11:19:56Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[Element is not clickable at point (70.48333740234375, 115). Other element would receive the click: <div style="display: block;" class="modal fade in" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true"></div>
+Command duration or timeout: 126 milliseconds
+Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+System info: host: 'GabbooAlien', ip: '192.168.30.95', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f40980d6-e153-4fc7-ac6d-6fb208e0c1d0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Element is not clickable at point (70.48333740234375, 115). Other element would receive the click: <div style="display: block;" class="modal fade in" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true"></div>
+Command duration or timeout: 126 milliseconds
+Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+System info: host: 'GabbooAlien', ip: '192.168.30.95', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f40980d6-e153-4fc7-ac6d-6fb208e0c1d0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:284)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at selenium.Util.Util.clickThis(Util.java:117)
+	at geForceSelenium.gForce.POM.webClassPOM.click_class_tabLink(webClassPOM.java:62)
+	at geForceSelenium.gForce.Script.webClassModule.createGForceRegionalClassTest(webClassModule.java:56)
+	at geForceSelenium.gForce.Script.webClassModule.unifiedRunTest(webClassModule.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Open Class in Class Type Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing ClassNameUld0Y in Class Name field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing 100.0 in Class Rate field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Danica Mozo in Class Teacher Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing VnulNskC in Class Venue field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing 50.0 in Class Capacity field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Start Time  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking End Time  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Save Class  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Element has been located  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting G-Force Project in Class Type Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting 2017 in gForceProject SubType Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing G-Force ProjectzstJL Makati in Class Name field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing 100.0 in Class Rate field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Danica Mozo in Class Teacher Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing VnubEH1U in Class Venue field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing Test AddressMakati in Address field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Makati in Area Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing 50.0 in Class Capacity field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Save Class  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Element has been located  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\FAILED-unifiedRunTest.png  width='600' height='400'/> </br>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Performing Screenshot  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- unifiedRunTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1505" started-at="2017-03-17T11:19:56Z" finished-at="2017-03-17T11:19:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.unifiedRunTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=unifiedRunTest status=FAILURE method=webClassModule.unifiedRunTest()[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe] output=<p>  Finished waiting  </p>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="beforeTest" is-config="true" duration-ms="3681" started-at="2017-03-17T11:19:57Z" finished-at="2017-03-17T11:20:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.createClassTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  ---------------------createClassTest---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="createClassTest()[pri:1, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="createClassTest" duration-ms="10276" started-at="2017-03-17T11:20:01Z" finished-at="2017-03-17T11:20:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Open Class in Class Type Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing ClassNameUld0Y in Class Name field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing 100.0 in Class Rate field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Danica Mozo in Class Teacher Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing VnulNskC in Class Venue field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing 50.0 in Class Capacity field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Start Time  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking End Time  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Save Class  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Element has been located  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-createClassTest.png  width='600' height='400'/> </br>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Performing Screenshot  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createClassTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1445" started-at="2017-03-17T11:20:11Z" finished-at="2017-03-17T11:20:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.createClassTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=createClassTest status=SUCCESS method=webClassModule.createClassTest()[pri:1, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe] output=<p>  Finished waiting  </p>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="beforeTest" is-config="true" duration-ms="3454" started-at="2017-03-17T11:20:13Z" finished-at="2017-03-17T11:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.createGForceClassTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  ---------------------createGForceClassTest---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="createGForceClassTest()[pri:1, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="createGForceClassTest" duration-ms="11629" started-at="2017-03-17T11:20:16Z" finished-at="2017-03-17T11:20:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting G-Force Project in Class Type Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting 2017 in gForceProject SubType Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing G-Force ProjectzstJL Makati in Class Name field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing 100.0 in Class Rate field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Danica Mozo in Class Teacher Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing VnubEH1U in Class Venue field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing Test AddressMakati in Address field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Makati in Area Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing 50.0 in Class Capacity field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Save Class  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Element has been located  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-createGForceClassTest.png  width='600' height='400'/> </br>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Performing Screenshot  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createGForceClassTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1467" started-at="2017-03-17T11:20:28Z" finished-at="2017-03-17T11:20:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.createGForceClassTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=createGForceClassTest status=SUCCESS method=webClassModule.createGForceClassTest()[pri:1, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe] output=<p>  Finished waiting  </p>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="beforeTest" is-config="true" duration-ms="3214" started-at="2017-03-17T11:20:29Z" finished-at="2017-03-17T11:20:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.createGForceRegionalClassTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  ---------------------createGForceRegionalClassTest---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="createGForceRegionalClassTest()[pri:1, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="createGForceRegionalClassTest" duration-ms="11865" started-at="2017-03-17T11:20:33Z" finished-at="2017-03-17T11:20:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting G-Force Project Regional in Class Type Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting 2017 in gForceProject SubType Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing G-Force Project RegionalfYXJR Davao in Class Name field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing 500.0 in Class Rate field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Danica Mozo in Class Teacher Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing VnuZQzk1 in Class Venue field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing Test AddressMakati in Address field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Davao in Area Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing 50.0 in Class Capacity field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Save Class  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Element has been located  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-createGForceRegionalClassTest.png  width='600' height='400'/> </br>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Performing Screenshot  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createGForceRegionalClassTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1509" started-at="2017-03-17T11:20:44Z" finished-at="2017-03-17T11:20:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.createGForceRegionalClassTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=createGForceRegionalClassTest status=SUCCESS method=webClassModule.createGForceRegionalClassTest()[pri:1, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe] output=<p>  Finished waiting  </p>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="beforeTest" is-config="true" duration-ms="3639" started-at="2017-03-17T11:20:46Z" finished-at="2017-03-17T11:20:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.searchClassTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  ---------------------searchClassTest---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="searchClassTest()[pri:2, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="searchClassTest" duration-ms="4895" started-at="2017-03-17T11:20:50Z" finished-at="2017-03-17T11:20:54Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: Open Class
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+System info: host: 'GabbooAlien', ip: '192.168.30.95', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Open Class
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+System info: host: 'GabbooAlien', ip: '192.168.30.95', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at selenium.Util.Util.selectThis(Util.java:64)
+	at selenium.Util.Util.selectThis(Util.java:55)
+	at geForceSelenium.gForce.POM.webClassPOM.selectIn_searchClass_classType(webClassPOM.java:173)
+	at geForceSelenium.gForce.Script.webClassModule.searchClassTest(webClassModule.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  Typing ClassNameUld0Y in Class Name field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  FAILED: Unable to Select Element, See below for more details : org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Open Class
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+System info: host: 'GabbooAlien', ip: '192.168.30.95', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
+Driver info: driver.version: unknown  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\FAILED-searchClassTest.png  width='600' height='400'/> </br>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Performing Screenshot  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- searchClassTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1251" started-at="2017-03-17T11:20:54Z" finished-at="2017-03-17T11:20:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.searchClassTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=searchClassTest status=FAILURE method=webClassModule.searchClassTest()[pri:2, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe] output=<p>  Typing ClassNameUld0Y in Class Name field  </p>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="beforeTest" is-config="true" duration-ms="3269" started-at="2017-03-17T11:20:56Z" finished-at="2017-03-17T11:20:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.editClassTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  ---------------------editClassTest---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="editClassTest()[pri:3, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="editClassTest" duration-ms="13608" started-at="2017-03-17T11:20:59Z" finished-at="2017-03-17T11:21:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  Typing ClassNameUld0Y in Class Name field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Open Class in Class Type Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting No in Class Published Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Search Button  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Retrieve this element ClassNameUld0Y  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Strings Matched : ClassNameUld0Y & ClassNameUld0Y  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Retrieve this element Open Class  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Strings Matched : Open Class & Open Class  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Class Table  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Edit Class  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Open Class in Class Type Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing ClassNameruA0b in Class Name field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing 300.0 in Class Rate field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting AJ Albaniel in Class Teacher Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing VnucgPt7 in Class Venue field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing 50.0 in Class Capacity field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Start Time  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking End Time  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing https://www.youtube.com/watch?v=ll8KDdQzoKY&t=1266s in Youtube URL field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Save Class  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Element has been located  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-editClassTest.png  width='600' height='400'/> </br>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Performing Screenshot  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- editClassTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1406" started-at="2017-03-17T11:21:13Z" finished-at="2017-03-17T11:21:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.editClassTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=editClassTest status=SUCCESS method=webClassModule.editClassTest()[pri:3, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe] output=<p>  Typing ClassNameUld0Y in Class Name field  </p>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="beforeTest" is-config="true" duration-ms="3546" started-at="2017-03-17T11:21:14Z" finished-at="2017-03-17T11:21:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.deleteClassTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  ---------------------deleteClassTest---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="deleteClassTest()[pri:4, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="deleteClassTest" duration-ms="8242" started-at="2017-03-17T11:21:18Z" finished-at="2017-03-17T11:21:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  Typing ClassNameruA0b in Class Name field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Open Class in Class Type Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Search Button  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Class Table  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Remove Class  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Delete Class Confirmation  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Element has been located  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-deleteClassTest.png  width='600' height='400'/> </br>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Performing Screenshot  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteClassTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1501" started-at="2017-03-17T11:21:26Z" finished-at="2017-03-17T11:21:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.deleteClassTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=deleteClassTest status=SUCCESS method=webClassModule.deleteClassTest()[pri:4, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe] output=<p>  Typing ClassNameruA0b in Class Name field  </p>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="beforeTest" is-config="true" duration-ms="3455" started-at="2017-03-17T11:21:27Z" finished-at="2017-03-17T11:21:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.publishClassTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  ---------------------publishClassTest---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  ---------------------TEST STARTING---------------------  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Navigating to :http://40.85.183.4/student/list  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="FAIL" signature="publishClassTest()[pri:5, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="publishClassTest" duration-ms="9032" started-at="2017-03-17T11:21:31Z" finished-at="2017-03-17T11:21:40Z">
+          <exception class="org.openqa.selenium.InvalidArgumentException">
+            <message>
+              <![CDATA[Element is not clickable at point (70.48333740234375, 115). Other element would receive the click: <div class="modal-backdrop fade"></div>
+Command duration or timeout: 65 milliseconds
+Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+System info: host: 'GabbooAlien', ip: '192.168.30.95', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f40980d6-e153-4fc7-ac6d-6fb208e0c1d0]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: Element is not clickable at point (70.48333740234375, 115). Other element would receive the click: <div class="modal-backdrop fade"></div>
+Command duration or timeout: 65 milliseconds
+Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+System info: host: 'GabbooAlien', ip: '192.168.30.95', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f40980d6-e153-4fc7-ac6d-6fb208e0c1d0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:284)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at selenium.Util.Util.clickThis(Util.java:117)
+	at geForceSelenium.gForce.POM.webClassPOM.click_class_tabLink(webClassPOM.java:62)
+	at geForceSelenium.gForce.Script.webClassModule.searchClassTest(webClassModule.java:81)
+	at geForceSelenium.gForce.Script.webClassModule.publishClassTest(webClassModule.java:144)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidArgumentException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Open Class in Class Type Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing ClassNameUld0Y in Class Name field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing 100.0 in Class Rate field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Selecting Danica Mozo in Class Teacher Select Field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing VnulNskC in Class Venue field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing 50.0 in Class Capacity field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Start Time  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking End Time  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Clicking Save Class  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Element has been located  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Finished waiting  </p>]]>
+            </line>
+            <line>
+              <![CDATA[<br> <img src=Test-Screenshot\2017-03-17_11-19-57\FAILED-publishClassTest.png  width='600' height='400'/> </br>]]>
+            </line>
+            <line>
+              <![CDATA[<p>  Performing Screenshot  </p>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- publishClassTest -->
+        <test-method status="PASS" signature="afterMethod(java.lang.reflect.Method, org.testng.ITestResult)[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="afterMethod" is-config="true" duration-ms="1671" started-at="2017-03-17T11:21:40Z" finished-at="2017-03-17T11:21:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void geForceSelenium.gForce.Script.webClassModule.publishClassTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=publishClassTest status=FAILURE method=webClassModule.publishClassTest()[pri:5, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe] output=<p>  Finished waiting  </p>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:geForceSelenium.gForce.Script.webClassModule@e25b2fe]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-03-17T11:21:41Z" finished-at="2017-03-17T11:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- geForceSelenium.gForce.Script.webClassModule -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

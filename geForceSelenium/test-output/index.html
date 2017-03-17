@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\Gabo\AppData\Local\Temp\testng-eclipse-1607100652\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 3 failed,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="geForceSelenium.gForce.Script.webClassModule" hash-for-method="publishClassTest">publishClassTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="geForceSelenium.gForce.Script.webClassModule" hash-for-method="searchClassTest">searchClassTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="geForceSelenium.gForce.Script.webClassModule" hash-for-method="unifiedRunTest">unifiedRunTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="geForceSelenium.gForce.Script.webClassModule" hash-for-method="createClassTest">createClassTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="geForceSelenium.gForce.Script.webClassModule" hash-for-method="createGForceClassTest">createGForceClassTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="geForceSelenium.gForce.Script.webClassModule" hash-for-method="createGForceRegionalClassTest">createGForceRegionalClassTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="geForceSelenium.gForce.Script.webClassModule" hash-for-method="deleteClassTest">deleteClassTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="geForceSelenium.gForce.Script.webClassModule" hash-for-method="editClassTest">editClassTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">geForceSelenium.gForce.Script.webClassModule</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="publishClassTest">
+                  </a> <!-- publishClassTest -->
+                  <span class="method-name">publishClassTest</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: Element is not clickable at point (70.48333740234375, 115). Other element would receive the click: &lt;div class=&quot;modal-backdrop fade&quot;&gt;&lt;/div&gt;
+Command duration or timeout: 65 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;3169782&apos;, time: &apos;2016-09-29 10:24:50 -0700&apos;
+System info: host: &apos;GabbooAlien&apos;, ip: &apos;192.168.30.95&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f40980d6-e153-4fc7-ac6d-6fb208e0c1d0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:284)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at selenium.Util.Util.clickThis(Util.java:117)
+	at geForceSelenium.gForce.POM.webClassPOM.click_class_tabLink(webClassPOM.java:62)
+	at geForceSelenium.gForce.Script.webClassModule.searchClassTest(webClassModule.java:81)
+	at geForceSelenium.gForce.Script.webClassModule.publishClassTest(webClassModule.java:144)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchClassTest">
+                  </a> <!-- searchClassTest -->
+                  <span class="method-name">searchClassTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Open Class
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;unknown&apos;, revision: &apos;3169782&apos;, time: &apos;2016-09-29 10:24:50 -0700&apos;
+System info: host: &apos;GabbooAlien&apos;, ip: &apos;192.168.30.95&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+	at selenium.Util.Util.selectThis(Util.java:64)
+	at selenium.Util.Util.selectThis(Util.java:55)
+	at geForceSelenium.gForce.POM.webClassPOM.selectIn_searchClass_classType(webClassPOM.java:173)
+	at geForceSelenium.gForce.Script.webClassModule.searchClassTest(webClassModule.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="unifiedRunTest">
+                  </a> <!-- unifiedRunTest -->
+                  <span class="method-name">unifiedRunTest</span>
+                  <div class="stack-trace">org.openqa.selenium.InvalidArgumentException: Element is not clickable at point (70.48333740234375, 115). Other element would receive the click: &lt;div style=&quot;display: block;&quot; class=&quot;modal fade in&quot; id=&quot;formModal&quot; tabindex=&quot;-1&quot; role=&quot;dialog&quot; aria-labelledby=&quot;formModalLabel&quot; aria-hidden=&quot;true&quot;&gt;&lt;/div&gt;
+Command duration or timeout: 126 milliseconds
+Build info: version: &apos;unknown&apos;, revision: &apos;3169782&apos;, time: &apos;2016-09-29 10:24:50 -0700&apos;
+System info: host: &apos;GabbooAlien&apos;, ip: &apos;192.168.30.95&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=46.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: f40980d6-e153-4fc7-ac6d-6fb208e0c1d0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:636)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:284)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at selenium.Util.Util.clickThis(Util.java:117)
+	at geForceSelenium.gForce.POM.webClassPOM.click_class_tabLink(webClassPOM.java:62)
+	at geForceSelenium.gForce.Script.webClassModule.createGForceRegionalClassTest(webClassModule.java:56)
+	at geForceSelenium.gForce.Script.webClassModule.unifiedRunTest(webClassModule.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">geForceSelenium.gForce.Script.webClassModule</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createClassTest">
+                  </a> <!-- createClassTest -->
+                  <span class="method-name">createClassTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createGForceClassTest">
+                  </a> <!-- createGForceClassTest -->
+                  <span class="method-name">createGForceClassTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="createGForceRegionalClassTest">
+                  </a> <!-- createGForceRegionalClassTest -->
+                  <span class="method-name">createGForceRegionalClassTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="deleteClassTest">
+                  </a> <!-- deleteClassTest -->
+                  <span class="method-name">deleteClassTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editClassTest">
+                  </a> <!-- editClassTest -->
+                  <span class="method-name">editClassTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Gabo\AppData\Local\Temp\testng-eclipse-1607100652\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;geForceSelenium.gForce.Script.webClassModule&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'unifiedRunTest')
+data.setCell(0, 2, 'geForceSelenium.gForce.Script.webClassModule')
+data.setCell(0, 3, 21864);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'editClassTest')
+data.setCell(1, 2, 'geForceSelenium.gForce.Script.webClassModule')
+data.setCell(1, 3, 13608);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'createGForceRegionalClassTest')
+data.setCell(2, 2, 'geForceSelenium.gForce.Script.webClassModule')
+data.setCell(2, 3, 11865);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createGForceClassTest')
+data.setCell(3, 2, 'geForceSelenium.gForce.Script.webClassModule')
+data.setCell(3, 3, 11629);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createClassTest')
+data.setCell(4, 2, 'geForceSelenium.gForce.Script.webClassModule')
+data.setCell(4, 3, 10276);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'publishClassTest')
+data.setCell(5, 2, 'geForceSelenium.gForce.Script.webClassModule')
+data.setCell(5, 3, 9032);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'deleteClassTest')
+data.setCell(6, 2, 'geForceSelenium.gForce.Script.webClassModule')
+data.setCell(6, 3, 8242);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'searchClassTest')
+data.setCell(7, 2, 'geForceSelenium.gForce.Script.webClassModule')
+data.setCell(7, 3, 4895);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createClassTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Open Class in Class Type Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing ClassNameUld0Y in Class Name field  </p></span>
+                <span class="reporter-method-output"><p>  Typing 100.0 in Class Rate field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Danica Mozo in Class Teacher Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing VnulNskC in Class Venue field  </p></span>
+                <span class="reporter-method-output"><p>  Typing 50.0 in Class Capacity field  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Start Time  </p></span>
+                <span class="reporter-method-output"><p>  Clicking End Time  </p></span>
+                <span class="reporter-method-output"><p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Save Class  </p></span>
+                <span class="reporter-method-output"><p>  Element has been located  </p></span>
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-createClassTest.png  width='600' height='400'/> </br></span>
+                <span class="reporter-method-output"><p>  Performing Screenshot  </p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createGForceRegionalClassTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><p>  Selecting G-Force Project Regional in Class Type Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting 2017 in gForceProject SubType Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing G-Force Project RegionalfYXJR Davao in Class Name field  </p></span>
+                <span class="reporter-method-output"><p>  Typing 500.0 in Class Rate field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Danica Mozo in Class Teacher Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing VnuZQzk1 in Class Venue field  </p></span>
+                <span class="reporter-method-output"><p>  Typing Test AddressMakati in Address field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Davao in Area Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing 50.0 in Class Capacity field  </p></span>
+                <span class="reporter-method-output"><p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Save Class  </p></span>
+                <span class="reporter-method-output"><p>  Element has been located  </p></span>
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-createGForceRegionalClassTest.png  width='600' height='400'/> </br></span>
+                <span class="reporter-method-output"><p>  Performing Screenshot  </p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createGForceClassTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><p>  Selecting G-Force Project in Class Type Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting 2017 in gForceProject SubType Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing G-Force ProjectzstJL Makati in Class Name field  </p></span>
+                <span class="reporter-method-output"><p>  Typing 100.0 in Class Rate field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Danica Mozo in Class Teacher Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing VnubEH1U in Class Venue field  </p></span>
+                <span class="reporter-method-output"><p>  Typing Test AddressMakati in Address field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Makati in Area Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing 50.0 in Class Capacity field  </p></span>
+                <span class="reporter-method-output"><p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Save Class  </p></span>
+                <span class="reporter-method-output"><p>  Element has been located  </p></span>
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-createGForceClassTest.png  width='600' height='400'/> </br></span>
+                <span class="reporter-method-output"><p>  Performing Screenshot  </p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">deleteClassTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>  Typing ClassNameruA0b in Class Name field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Open Class in Class Type Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Search Button  </p></span>
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Class Table  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Remove Class  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Delete Class Confirmation  </p></span>
+                <span class="reporter-method-output"><p>  Element has been located  </p></span>
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-deleteClassTest.png  width='600' height='400'/> </br></span>
+                <span class="reporter-method-output"><p>  Performing Screenshot  </p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">editClassTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>  Typing ClassNameUld0Y in Class Name field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Open Class in Class Type Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting No in Class Published Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Search Button  </p></span>
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><p>  Retrieve this element ClassNameUld0Y  </p></span>
+                <span class="reporter-method-output"><p>  Strings Matched : ClassNameUld0Y & ClassNameUld0Y  </p></span>
+                <span class="reporter-method-output"><p>  Retrieve this element Open Class  </p></span>
+                <span class="reporter-method-output"><p>  Strings Matched : Open Class & Open Class  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Class Table  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Edit Class  </p></span>
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Open Class in Class Type Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing ClassNameruA0b in Class Name field  </p></span>
+                <span class="reporter-method-output"><p>  Typing 300.0 in Class Rate field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting AJ Albaniel in Class Teacher Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing VnucgPt7 in Class Venue field  </p></span>
+                <span class="reporter-method-output"><p>  Typing 50.0 in Class Capacity field  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Start Time  </p></span>
+                <span class="reporter-method-output"><p>  Clicking End Time  </p></span>
+                <span class="reporter-method-output"><p>  Typing https://www.youtube.com/watch?v=ll8KDdQzoKY&t=1266s in Youtube URL field  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Save Class  </p></span>
+                <span class="reporter-method-output"><p>  Element has been located  </p></span>
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><br> <img src=Test-Screenshot\2017-03-17_11-19-57\SUCCESS-editClassTest.png  width='600' height='400'/> </br></span>
+                <span class="reporter-method-output"><p>  Performing Screenshot  </p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">publishClassTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Open Class in Class Type Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing ClassNameUld0Y in Class Name field  </p></span>
+                <span class="reporter-method-output"><p>  Typing 100.0 in Class Rate field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Danica Mozo in Class Teacher Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing VnulNskC in Class Venue field  </p></span>
+                <span class="reporter-method-output"><p>  Typing 50.0 in Class Capacity field  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Start Time  </p></span>
+                <span class="reporter-method-output"><p>  Clicking End Time  </p></span>
+                <span class="reporter-method-output"><p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Save Class  </p></span>
+                <span class="reporter-method-output"><p>  Element has been located  </p></span>
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><br> <img src=Test-Screenshot\2017-03-17_11-19-57\FAILED-publishClassTest.png  width='600' height='400'/> </br></span>
+                <span class="reporter-method-output"><p>  Performing Screenshot  </p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">searchClassTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>  Typing ClassNameUld0Y in Class Name field  </p></span>
+                <span class="reporter-method-output"><p>  FAILED: Unable to Select Element, See below for more details : org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Open Class
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: 'unknown', revision: '3169782', time: '2016-09-29 10:24:50 -0700'
+System info: host: 'GabbooAlien', ip: '192.168.30.95', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_111'
+Driver info: driver.version: unknown  </p></span>
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><br> <img src=Test-Screenshot\2017-03-17_11-19-57\FAILED-searchClassTest.png  width='600' height='400'/> </br></span>
+                <span class="reporter-method-output"><p>  Performing Screenshot  </p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">unifiedRunTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Open Class in Class Type Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing ClassNameUld0Y in Class Name field  </p></span>
+                <span class="reporter-method-output"><p>  Typing 100.0 in Class Rate field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Danica Mozo in Class Teacher Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing VnulNskC in Class Venue field  </p></span>
+                <span class="reporter-method-output"><p>  Typing 50.0 in Class Capacity field  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Start Time  </p></span>
+                <span class="reporter-method-output"><p>  Clicking End Time  </p></span>
+                <span class="reporter-method-output"><p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Save Class  </p></span>
+                <span class="reporter-method-output"><p>  Element has been located  </p></span>
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><p>  Selecting G-Force Project in Class Type Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting 2017 in gForceProject SubType Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing G-Force ProjectzstJL Makati in Class Name field  </p></span>
+                <span class="reporter-method-output"><p>  Typing 100.0 in Class Rate field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Danica Mozo in Class Teacher Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing VnubEH1U in Class Venue field  </p></span>
+                <span class="reporter-method-output"><p>  Typing Test AddressMakati in Address field  </p></span>
+                <span class="reporter-method-output"><p>  Selecting Makati in Area Select Field  </p></span>
+                <span class="reporter-method-output"><p>  Typing 50.0 in Class Capacity field  </p></span>
+                <span class="reporter-method-output"><p>  Typing https://www.youtube.com/watch?v=9azGzlvCygA in Youtube URL field  </p></span>
+                <span class="reporter-method-output"><p>  Clicking Save Class  </p></span>
+                <span class="reporter-method-output"><p>  Element has been located  </p></span>
+                <span class="reporter-method-output"><p>  Finished waiting  </p></span>
+                <span class="reporter-method-output"><br> <img src=Test-Screenshot\2017-03-17_11-19-57\FAILED-unifiedRunTest.png  width='600' height='400'/> </br></span>
+                <span class="reporter-method-output"><p>  Performing Screenshot  </p></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">geForceSelenium.gForce.Script.webClassModule</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void geForceSelenium.gForce.Script.webClassModule.unifiedRunTest())</span>
+                <span class="method-start">27404 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">unifiedRunTest</span>
+                <span class="method-start">31068 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void geForceSelenium.gForce.Script.webClassModule.unifiedRunTest(), [TestResult name=unifiedR...)</span>
+                <span class="method-start">52946 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void geForceSelenium.gForce.Script.webClassModule.createClassTest())</span>
+                <span class="method-start">54452 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createClassTest</span>
+                <span class="method-start">58133 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void geForceSelenium.gForce.Script.webClassModule.createClassTest(), [TestResult name=createC...)</span>
+                <span class="method-start">68410 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void geForceSelenium.gForce.Script.webClassModule.createGForceClassTest())</span>
+                <span class="method-start">69855 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createGForceClassTest</span>
+                <span class="method-start">73309 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void geForceSelenium.gForce.Script.webClassModule.createGForceClassTest(), [TestResult name=c...)</span>
+                <span class="method-start">84938 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void geForceSelenium.gForce.Script.webClassModule.createGForceRegionalClassTest())</span>
+                <span class="method-start">86405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createGForceRegionalClassTest</span>
+                <span class="method-start">89619 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void geForceSelenium.gForce.Script.webClassModule.createGForceRegionalClassTest(), [TestResul...)</span>
+                <span class="method-start">101485 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void geForceSelenium.gForce.Script.webClassModule.searchClassTest())</span>
+                <span class="method-start">102995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">searchClassTest</span>
+                <span class="method-start">106634 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void geForceSelenium.gForce.Script.webClassModule.searchClassTest(), [TestResult name=searchC...)</span>
+                <span class="method-start">111531 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void geForceSelenium.gForce.Script.webClassModule.editClassTest())</span>
+                <span class="method-start">112783 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editClassTest</span>
+                <span class="method-start">116052 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void geForceSelenium.gForce.Script.webClassModule.editClassTest(), [TestResult name=editClass...)</span>
+                <span class="method-start">129661 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void geForceSelenium.gForce.Script.webClassModule.deleteClassTest())</span>
+                <span class="method-start">131068 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">deleteClassTest</span>
+                <span class="method-start">134614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void geForceSelenium.gForce.Script.webClassModule.deleteClassTest(), [TestResult name=deleteC...)</span>
+                <span class="method-start">142857 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void geForceSelenium.gForce.Script.webClassModule.publishClassTest())</span>
+                <span class="method-start">144358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">publishClassTest</span>
+                <span class="method-start">147813 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod(public void geForceSelenium.gForce.Script.webClassModule.publishClassTest(), [TestResult name=publis...)</span>
+                <span class="method-start">156850 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">158522 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

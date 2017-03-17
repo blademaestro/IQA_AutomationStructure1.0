@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [geForceSelenium by packages]">
+  <test verbose="2" name="geForceSelenium.gForce.Script">
+    <packages>
+      <package name="geForceSelenium.gForce.Script"/>
+    </packages>
+    <classes>
+      <class name="geForceSelenium.gForce.Script.testing_Script"/>
+      <class name="geForceSelenium.gForce.Script.webClassModule"/>
+      <class name="geForceSelenium.gForce.Script.webStudentModule"/>
+      <class name="geForceSelenium.gForce.Script.webTeacherModule"/>
+    </classes>
+  </test> <!-- geForceSelenium.gForce.Script -->
+  <test name="geForceSelenium.gForce.Script(failed)">
+    <classes>
+      <class name="geForceSelenium.gForce.Script.webTeacherModule">
+        <methods>
+          <include name="createTeacherFutureDateTest"/>
+          <include name="createTeacherTest"/>
+          <include name="searchTeacherTest"/>
+          <include name="createTeacherNotAvailableForTrainingTest"/>
+        </methods>
+      </class> <!-- geForceSelenium.gForce.Script.webTeacherModule -->
+      <class name="geForceSelenium.gForce.Script.webStudentModule">
+        <methods>
+          <include name="editStudentTest"/>
+          <include name="deleteStudentTest"/>
+          <include name="viewStudentTest"/>
+          <include name="createStudentTest"/>
+          <include name="searchStudentTest"/>
+        </methods>
+      </class> <!-- geForceSelenium.gForce.Script.webStudentModule -->
+      <class name="geForceSelenium.gForce.Script.webClassModule">
+        <methods>
+          <include name="createGForceClassTest"/>
+          <include name="createClassTest"/>
+          <include name="afterMethod"/>
+          <include name="editClassTest"/>
+          <include name="createGForceRegionalClassTest"/>
+          <include name="publishClassTest"/>
+          <include name="searchClassTest"/>
+          <include name="unifiedRunTest"/>
+          <include name="deleteClassTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- geForceSelenium.gForce.Script.webClassModule -->
+      <class name="geForceSelenium.gForce.Script.testing_Script">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setupTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- geForceSelenium.gForce.Script.testing_Script -->
+    </classes>
+  </test> <!-- geForceSelenium.gForce.Script(failed) -->
+</suite> <!-- Failed suite [geForceSelenium by packages] -->
