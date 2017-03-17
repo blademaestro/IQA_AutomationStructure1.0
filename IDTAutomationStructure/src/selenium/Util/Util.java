@@ -6,6 +6,7 @@ import java.lang.reflect.Method;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
@@ -120,6 +121,7 @@ public class Util {
 			Util.logger("FAILED: Unable to click element, See below for more details: " + e);
 			throw e;
 		}
+		
 	}
 	
 //	CHECKING METHODS
@@ -250,7 +252,6 @@ public class Util {
 		Reporter.log("<p>  " + log + "  </p>");
 		System.out.println(log);
 	}
-	
 	public static void imageLogger(String log)
 	{
 		Reporter.log(log);
@@ -292,6 +293,11 @@ public class Util {
 		return dateFormat.format(dt);
 		
 	}
+	public static int generateRandomNumber(int min, int max)
+	{
+		return ThreadLocalRandom.current().nextInt(min, max);	
+	}
+	
 	public static void takeScreenshot(WebDriver driver, Method method, String result) throws IOException
 	{		
 		Util.temporaryWaitSolution();
